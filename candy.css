@@ -1,0 +1,10 @@
+header{
+    background-image: url("candystore.jpg");
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+    padding-top: 150px;
+}
+.col-md-4 img{
+     background-image: url("Logo.jpg");
+}
