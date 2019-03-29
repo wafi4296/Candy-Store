@@ -5,6 +5,31 @@ header{
     background-size: cover;
     padding-top: 150px;
 }
-.col-md-4 img{
-     background-image: url("Logo.jpg");
+
+.aboutus{
+    text-align: center;
+}
+.services span{ 
+     width: 200px;
+     display: inline-block;
+    border-radius: 0%; 
+    background-color: lightblue
+   
+ }
+.services h1 {
+      text-align: center;
+ }
+.services{
+     background-color: lightpink 
+}
+.services i {
+     font-size: 30px; 
+     padding: 20px 20px;
+     color: #fff;
+     background-color: lightgreen;
+     width: 80px;
+     height: 80px;
+     /*changes the roundness of the container*/
+     border-radius: 50%; 
+     icon alignment-baseline: : central
 }
