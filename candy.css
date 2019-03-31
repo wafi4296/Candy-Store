@@ -1,35 +1,90 @@
-header{
-    background-image: url("candystore.jpg");
+.aboutus {
     text-align: center;
-    height: 500px;
-    background-size: cover;
-    padding-top: 150px;
 }
 
-.aboutus{
+.services span {
+    width: 200px;
+    display: inline-block;
+    border-radius: 0%;
+    background-color: lightblue
+}
+
+.services h1 {
     text-align: center;
 }
-.services span{ 
-     width: 200px;
-     display: inline-block;
-    border-radius: 0%; 
-    background-color: lightblue
-   
- }
-.services h1 {
-      text-align: center;
- }
-.services{
-     background-color: lightpink 
+
+.services {
+    background-color: lightpink
 }
+
 .services i {
-     font-size: 30px; 
-     padding: 20px 20px;
-     color: #fff;
-     background-color: lightgreen;
-     width: 80px;
-     height: 80px;
-     /*changes the roundness of the container*/
-     border-radius: 50%; 
-     icon alignment-baseline: : central
+    font-size: 30px;
+    padding: 20px 20px;
+    color: #fff;
+    background-color: lightgreen;
+    width: 80px;
+    height: 80px;
+    /*changes the roundness of the container*/
+    border-radius: 50%;
+    icon alignment-baseline: central;
+}
+/*this is the very top portion of the page*/
+.banner {
+    color: #777777;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    
+}
+/*this is for the logo*/
+.ban {
+    border-radius: 50%;
+    position: absolute;
+    right: 700px;
+    top: -30px;
+}
+/*this is the background picture*/
+.home {
+    background-size: cover;
+    width: 1550px;
+    height: 500px;
+}
+/*this is for the transparent box that contains the introductory texts*/
+.textbox {
+    position: absolute;
+    bottom: 145px;
+    right: 500px;
+    background-color: #9D9C9C;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    opacity: 0.5;
+    width: 540px;
+    height: 250px;
+}
+/*this is targetting p from the texts*/
+.text p{
+    width: 500px;
+}
+/*introductory texts*/
+.text{
+    position: absolute;
+    bottom: 150px;
+    right: 500px;
+    color: ;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+    font-size: 20px;
+    opacity: 2;
+}
+/*nav bar*/
+.nav-item {
+    opacity: 0.9;
+}
+/*nav bar when mouse hovers over*/
+.nav-item:hover {
+    opacity: 1.1;
+    background-color: red;
 }
