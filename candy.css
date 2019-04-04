@@ -124,7 +124,21 @@
 .navbar h3 {
     position: absolute;
     right: 200px;
+    bottom: 35px;
 
+}
+.navbar button{
+    position: absolute;
+    right: 450px;
+    bottom: 0px;
+}
+.navbar{
+    
+}
+.btn-info{
+    position: absolute;
+    right: 270px;
+    bottom: 0px;
 }
 
 #offers {
@@ -137,12 +151,28 @@
     height:300px;
 }
 .carousel img{
-    size: cover;
+    background-size: cover;
     height: 300px;
 }
 
 .slide1{
     background-size: cover;
-    width: 1500px;
-    height:650px;
+    width: 1300px;
+    height:1500px;
+}
+.slide2{
+    
+   background-size: cover;
+    width: 1300px;
+    height:1500px;
+}
+.slide3{
+    background-size: cover;
+    width: 1300px;
+    height:1500px;
+}
+.slide4{
+  background-size: cover;
+      width: 1300px;
+    height:1500px;
 }
