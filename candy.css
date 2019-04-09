@@ -1,178 +1,371 @@
 .aboutus {
-    text-align: center;
+  text-align: center;
+}
+
+#abtus {
+  background-image: linear-gradient(to bottom, #D5BDF9, white);
+  height: 300px;
+}
+
+.aboutus p {
+  width: 650px;
+  position: relative;
+  right: -450px;
 }
 
 .services span {
-    width: 200px;
-    display: inline-block;
-    border-radius: 50%;
-    background-color: lightblue
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
 }
+
+.services span:hover {
+  background-color: lightblue;
+}
+
 
 .services h1 {
-    text-align: center;
+  text-align: center;
 }
 
-
-.services i {
-    font-size: 30px;
-    padding: 20px 20px;
-    color: #fff;
-    background-color: lightgreen;
-    width: 80px;
-    height: 80px;
-    /*changes the roundness of the container*/
-    border-radius: 50%;
-    icon alignment-baseline: central;
+#navbarNav {
+  background-image: linear-gradient(to bottom, #EEC5EF, white);
 }
 
 /*this is the very top portion of the page*/
 
 .banner {
-    color: #777777;
-    font-family: 'Signika Negative', sans-serif;
-    text-align: center;
+  color: #777777;
+  font-family: 'Signika Negative', sans-serif;
+  text-align: center;
 
 }
 
 /*this is for the logo*/
 
 .ban {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 /*this is the background picture*/
 
 .home {
-    background-size: cover;
-    width: 1550px;
-    height: 500px;
+  background-size: cover;
+  width: 1550px;
+  height: 500px;
 }
 
 /*this is for the transparent box that contains the introductory texts*/
 
 .textbox {
-    position: absolute;
-    bottom: 260px;
-    right: 470px;
-    background-color: #9D9C9C;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    opacity: 0.5;
-    width: 540px;
-    height: 250px;
+  position: absolute;
+  bottom: 260px;
+  right: 550px;
+  background-color: #9D9C9C;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  opacity: 0.3;
+  width: 540px;
+  height: 250px;
 }
 
 /*this is targetting p from the texts*/
 
 .text p {
-    width: 500px;
+  width: 500px;
 }
 
 /*introductory texts*/
 
 .text {
-    position: absolute;
-    bottom: 270px;
-    right: 470px;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: 'IBM Plex Serif', serif;
-    text-align: center;
-    font-size: 20px;
-    opacity: 2;
+  position: absolute;
+  bottom: 270px;
+  right: 550px;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'IBM Plex Serif', serif;
+  text-align: center;
+  font-size: 20px;
+  opacity: 2;
 }
 
 /*nav bar*/
 
 .nav-item {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 /*nav bar when mouse hovers over*/
 
 .nav-item:hover {
-    opacity: 1.1;
-    background-color: red;
+  opacity: 1.1;
+  background-color: red;
 }
 
-.pricing  {
-    text-align: center;
-    background-image: url(https://images.ecosia.org/_gWRXUtYCVa7W0epUTzwrCQFgJg=/0x390/smart/http%3A%2F%2Fs13.favim.com%2Forig%2F160512%2Fmarshmallow-purple-bluemarshmallows-babyblue-Favim.com-4302658.jpeg); 
-    background-size:cover;
-    width: 100%;
-    height: 100%;
+.pricing {
+  text-align: center;
+  background-image: linear-gradient(to top, #D65DB1, white);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 
 
 }
 
 .align-self-start:hover {
-    background-color: lightpink;
+  background-color: lightpink;
 }
 
 .align-self-center:hover {
-    background-color: lightpink;
+  background-color: lightpink;
 }
 
 .align-self-end:hover {
-    background-color: lightpink;
+  background-color: lightpink;
 }
 
 
-.navbar h3 {
-    position: absolute;
-    right: 200px;
-    bottom: 35px;
+.navbar h4 {
+  position: absolute;
+  right: 225px;
+  bottom: 43px;
 
 }
-.navbar button{
-    position: absolute;
-    right: 450px;
-    bottom: 0px;
+
+.navbar button {
+  position: absolute;
+  right: 450px;
+  bottom: 12px;
 }
-.navbar{
-    
-}
-.btn-info{
-    position: absolute;
-    right: 270px;
-    bottom: 0px;
+
+.btn-info {
+  position: absolute;
+  right: 270px;
+  bottom: 12px;
 }
 
 #offers {
-    height: 50px;
+  height: 50px;
+  background-image: linear-gradient(to top, #EEC5EF, white)
 }
 
-.teammates {
-    border-radius: 50%;
-    width: 300px;
-    height:300px;
-}
-.carousel img{
-    background-size: cover;
-    height: 300px;
-}
 
-.slide1{
-    background-size: cover;
-    width: 1300px;
-    height:1500px;
-}
-.slide2{
-    
-   background-size: cover;
-    width: 1300px;
-    height:1500px;
-}
-.slide3{
-    background-size: cover;
-    width: 1300px;
-    height:1500px;
-}
-.slide4{
+.carousel img {
   background-size: cover;
-      width: 1300px;
-    height:1500px;
+  height: 300px;
+
 }
+
+.carousel-item img {
+  height: 600px;
+  width: 1550px;
+
+}
+
+.caption1,
+.caption2,
+.caption3 {
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+/*Trusted By section*/
+.Trusted{
+    text-align: center;
+    background-image: linear-gradient(to top, #FF9671, white)
+}
+
+
+
+/*Contact us section*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background: #0CF;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0;
+}
+
+#contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #AAA;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #0CF;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #09C;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+/*Meet the team css*/
+
+.Team h2, p{
+    text-align: center;
+    
+}
+.Team{
+    background-image: linear-gradient(to bottom, #FF6F91, white);
+}
+.flip-box {
+  background-color: transparent;
+  width: 299px;
+  height: 450px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+}
+/*Testing New Code Imputs*/
