@@ -8,30 +8,37 @@ body {
 }
 
 #abtus {
-  background-image: linear-gradient(to bottom, #D5BDF9, white);
-  height: 300px;
+  background-image: linear-gradient(to top, #EEC5EF, white);
+  height: 700px;
+
 }
 
 .aboutus p {
   width: 650px;
   position: relative;
-  right: -450px;
+  right: -440px;
+  text-align: center;
+  font-size: 25px;
 }
-
-.services span {
+.shopc{
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+}
+#services span {
   width: 50px;
   height: 50px;
   display: inline-block;
   border-radius: 50%;
+  background-color: black;
+}
+#services span:hover{
+ background-color: lightblue;
 }
 
-.services span:hover {
-  background-color: lightblue;
-}
 
-
-.services h1 {
-  text-align: center;
+.bd-example {
+  text-align: center !important;
 }
 
 #navbarNav {
@@ -74,10 +81,8 @@ body {
 .text {
   position: absolute;
   bottom: 300px;
-  right: 450px;
+  right: 500px;
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-  padding-left: 20px;
-  padding-right: 20px;
   font-family: 'IBM Plex Serif', serif;
   text-align: center;
   font-size: 20px;
@@ -102,41 +107,29 @@ body {
   background-image: linear-gradient(to top, #D65DB1, white);
   background-size: cover;
   width: 100%;
-  height: 400px;
+  height: 700px;
 
 
 }
 
-.align-self-start:hover {
-  background-color: lightpink;
+.pricingp {
+  font-size: 30px;
 }
 
-.align-self-center:hover {
-  background-color: lightpink;
-}
-
-.align-self-end:hover {
-  background-color: lightpink;
-}
-
-
-.navbar h4 {
+.navbar h4{
   position: absolute;
-  right: 225px;
-  bottom: 43px;
+  color: grey;
+  right: 255px;
+  bottom: 10px;
+  width: 250px;
+  text-align: center;
 
 }
 
-.navbar button {
+.shop {
   position: absolute;
-  right: 450px;
-  bottom: 12px;
-}
-
-.btn-info {
-  position: absolute;
-  right: 270px;
-  bottom: 12px;
+  right: 50px;
+  bottom: 25px;
 }
 
 #offers {
@@ -190,22 +183,6 @@ body {
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
-
-body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 30px;
-  color: #777;
-  background: #0CF;
-}
-
-.container {
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
 }
 
 #contact input[type="text"],
@@ -325,8 +302,9 @@ p {
 
 }
 
-.Team {
+#team {
   background-image: linear-gradient(to bottom, #FF6F91, white);
+  text-align: center;
 }
 
 .flip-box {
@@ -367,172 +345,110 @@ p {
   background-color: white;
   transform: rotateY(180deg);
 }
+
 /*The team ends*/
 
-.chocolatetypes img {
-  size: 20%
-  /*Testing New Code Imputs*/
-  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+/*Testing New Code Inputs*/
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
+.footer {
+  background-color: black;
+}
 
-  body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 30px;
-    color: #777;
-    background: #0CF;
-  }
+.footer h3 {
+  color: white;
+}
 
-  .container {
-    max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-  }
+.writings {
+  color: white;
+}
 
-  #contact input[type="text"],
-  #contact input[type="email"],
-  #contact input[type="tel"],
-  #contact input[type="url"],
-  #contact textarea,
-  #contact button[type="submit"] {
-    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
-  }
+.writings p {
+  text-align: left;
+}
 
-  #contact {
-    background: #F9F9F9;
-    padding: 25px;
-    margin: 50px 0;
-  }
+.about {
+  color: white;
+}
 
-  #contact h3 {
-    color: #F96;
-    display: block;
-    font-size: 30px;
-    font-weight: 400;
-  }
+.about p {
+  text-align: left;
+}
 
-  #contact h4 {
-    margin: 5px 0 15px;
-    display: block;
-    font-size: 13px;
-  }
+.social p {
+  color: blue;
+  word-spacing: 30px;
+  text-align: left;
+}
 
-  fieldset {
-    border: medium none !important;
-    margin: 0 0 10px;
-    min-width: 100%;
-    padding: 0;
-    width: 100%;
-  }
+.social input {
+  width: 200px;
+}
 
-  #contact input[type="text"],
-  #contact input[type="email"],
-  #contact input[type="tel"],
-  #contact input[type="url"],
-  #contact textarea {
-    width: 100%;
-    border: 1px solid #CCC;
-    background: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-  }
-
-  #contact input[type="text"]:hover,
-  #contact input[type="email"]:hover,
-  #contact input[type="tel"]:hover,
-  #contact input[type="url"]:hover,
-  #contact textarea:hover {
-    -webkit-transition: border-color 0.3s ease-in-out;
-    -moz-transition: border-color 0.3s ease-in-out;
-    transition: border-color 0.3s ease-in-out;
-    border: 1px solid #AAA;
-  }
-
-  #contact textarea {
-    height: 100px;
-    max-width: 100%;
-    resize: none;
-  }
-
-  #contact button[type="submit"] {
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    background: #0CF;
-    color: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 15px;
-  }
-
-  #contact button[type="submit"]:hover {
-    background: #09C;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
-  }
-
-  #contact button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-  }
-
-  #contact input:focus,
-  #contact textarea:focus {
-    outline: 0;
-    border: 1px solid #999;
-  }
-  ::-webkit-input-placeholder {
-    color: #888;
-  }
-  :-moz-placeholder {
-    color: #888;
-  }
-  ::-moz-placeholder {
-    color: #888;
-  }
-  :-ms-input-placeholder {
-    color: #888;
-  }
+.sour {
+  background-color: lightpink
+}
 
 
-  /*Testing New Code Imputs*/
-  .footer {
-    background-color: black !important;
-    padding: 20px;
-  }
-  .writings {
-    color: white;
-    text-indent: 8px;
-  }
-  .about {
-    color: white;
-    text-indent: 8px;
-  }
-  .social {
-    text-indent: 8px;
-  }
-  .social p {
-    color: blue;
-    word-spacing: 20px;
-  }
-  .social input {
-    width: 200px;
-  }
 
-  /*Testing New Code Imputs*/
-  
-  /*Testing New Code Imputs*/
+/* New section*/
+
+
+
+
+
+.cart {
+  background-color: #EDEEEE;
+  height: 200px;
+  width: 800px;
+  position: absolute;
+  right: 400px;
+  bottom: 400px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.cart h1 {
+  color: #FB74D7;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+.caramel{
+  background-image: linear-gradient(to top, #D65DB1, white);
+  background-size: cover;
+}
+.whitechocolate{
+  background-image: linear-gradient(to top, #D65DB1, white);
+  background-size: cover;
+}
+.milkchocolate{
+  background-image: linear-gradient(to top, #D65DB1, white);
+  background-size: cover;
+}
+.sour{
+  background-image: linear-gradient(to top, #D65DB1, white);
+  background-size: cover;
+}
+.gummy{
+  background-image: linear-gradient(to top, #D65DB1, white);
+  background-size: cover;
+}
+.stick{
+  background-image: linear-gradient(to top, #D65DB1, white);
+  background-size: cover;
+}
+.mint{
+  background-image: linear-gradient(to top, #D65DB1, white);
+  background-size: cover;
+}
+
+
+
+
+
+
+/*Testing New Code Imputs*/
+
+/*Testing New Code Imputs*/
